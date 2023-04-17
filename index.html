@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Head of my website-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Second Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Body of my website-->
+    <header>
+        <h1>My homepage</h1>
+        <nav>
+        <!--New navigation, data-page instead of href-->
+            <a class = "active" data-page="home">Homepage</a>
+            <a data-page="about" >About Me</a>
+            <a data-page="hobbies">Hobbies</a>
+            <a data-page="contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <!--Main content of my page-->
+        <div id="main-content"></div>
+        
+    </main>
+    <footer>
+        <!--footer, copyright, etc.-->
+        <p>&copy; 2023 Nicholas Chill</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
